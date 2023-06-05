@@ -4,13 +4,157 @@
         <meta charset="UTF-8">
         <title>Saarthak Gupta</title>
 
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/317d50b425.js" crossorigin="anonymous"></script>
+
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/blink_animation.css">
+
         <!-- bootstrap css cdn -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
+
     <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg" style="padding: 0.5rem 3rem">
+            <a class="navbar-brand" href="#" style="font-weight: bolder;">  <span class="terminal-text">><span class="blink">_ </span></span> <span style="font-family: 'VT323', monospace;font-size: 3rem;">Saarthak Gupta</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                        <a class="nav-link" href="#experience" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style="font-weight: bolder;">Experience <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style="font-weight: bolder;">Projects <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style="font-weight: bolder;">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 0.5rem;">
+                        <button class="btn btn-primary" onclick="window.open('./resources/resume.pdf')">Resume</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Intro section -->
+        <div class="header">
+            <div class="container" style="display: flex;">
+                <div>
+                    <h1 class="display-2" style="padding-top: 30%;">Hi, I am Saarthak Gupta</h1>
+                    <h1 class="display-4">I'm a <span class="job">Software Engineer</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="experience" id="experience">
+            <div class="row d-flex justify-content-center">
+                <div class='container justify-content-center'>
+                    <h1 class="display-4" style=" font-weight:bolder; text-align: center; padding-top: 10%; color:white; padding-bottom: 3%">Experience</h1>
+                    <div class="row justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/uva-bii-logo.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/publicis-sapient-logo.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Database Management Intern</h5>
+                                <h6 class="card-title">at Publicis Sapient</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div>
+                                    <img src="./resources/logo-mysql-26353.png" style="width: 15%;"/>
+                                    <img src="./resources/java.png" style="width: 15%;"/>
+                                    <img src="./resources/pbi.png" style="width: 20%;"/>
+                                    <img src="./resources/ssql.png" style="width: 20%;"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/uva-uta.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <div class="row d-flex justify-content-center">
+                <div class='container justify-content-center'>
+                    <h1 class="display-4" style="text-align: center; padding-top: 10%; color:white; padding-bottom: 3%; font-weight: bolder;">Projects</h1>
+                    <div class="row justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/uva-bii-logo.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/publicis-sapient-logo.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact container" id="contact">
+            <h1 id="contact-title" class="display-3" style="padding-bottom: 3%; padding-top: 20%;">Let's Connect!</h1>
+            <div class="contact-text">Feel free to contact me to collaborate, chat,
+                or discuss software development opportunities. Please choose your preferred means of communication below.
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/saarthak-gupta/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="https://github.com/saarthak2002" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a href="mailto:saarthakvir@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+                <a href="https://calendly.com/saarthakgupta/30min" target="_blank"><i class="fa-solid fa-calendar-days fa-2xl"></i></a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content d-flex justify-content-center">
+                <p>Ⓒ 2023 Saarthak Gupta | Made with ♡</p>
+            </div>
+        </footer>
+
         <!-- bootstrap JS cdn -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            const navLinks = document.querySelectorAll('.nav-item')
+            const menuToggle = document.getElementById('navbarSupportedContent')
+            const bsCollapse = new bootstrap.Collapse(menuToggle)
+            navLinks.forEach((l) => {
+                l.addEventListener('click', () => { bsCollapse.toggle() })
+            })
+        </script>
     </body>
 </html> 
