@@ -10,6 +10,8 @@ html, body {
     margin: 0;
     font-family: var(--main-font);
     scroll-behavior: smooth;
+    padding-top: 98px;
+    overflow-x: hidden;
 }
 
 .header {
