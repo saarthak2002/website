@@ -25,7 +25,7 @@
     <body>
         <!-- Navigation Bar -->
         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg" style="padding: 0.5rem 3rem">
-            <a class="navbar-brand" href="#" style="font-weight: bolder;">  <span class="terminal-text">><span class="blink">_ </span></span> <span class="full-text" style="font-family: 'VT323', monospace;font-size: 3rem;">Saarthak Gupta</span> <span class="short-text" style="font-family: 'VT323', monospace;font-size: 3rem;">SG</span> </a>
+            <a class="navbar-brand" href="#header" style="font-weight: bolder;">  <span class="terminal-text">><span class="blink">_ </span></span> <span class="full-text" style="font-family: 'VT323', monospace;font-size: 3rem;">Saarthak Gupta</span> <span class="short-text" style="font-family: 'VT323', monospace;font-size: 3rem;">SG</span> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -49,10 +49,19 @@
 
         <!-- Intro section -->
         <div class="header">
-            <div class="container" style="display: flex;">
+            <div id="header" class="container" style="display: flex;">
                 <div>
                     <h1 class="display-2" style="padding-top: 30%;">Hi, I am Saarthak Gupta</h1>
-                    <h1 class="display-4">I'm a <span class="job">Software Engineer</span></h1>
+                    <h1 class="display-4">I'm a 
+                        <a href="" 
+                            class="typewrite" 
+                            data-period="2000" 
+                            data-type='[ "Software Engineer.", "Designer.", "Tech Enthusiast.", "Data Scientist." ]'
+                            style="text-decoration: none; cursor:auto;"
+                        >
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
                 </div>
             </div>
         </div>
@@ -142,9 +151,14 @@
 
         <footer class="footer">
             <div class="footer-content d-flex justify-content-center">
-                <p>Ⓒ 2023 Saarthak Gupta | Made with ♡</p>
+                <div>
+                    <p style="margin: 0;">Ⓒ 2023 Saarthak Gupta | Made with ♡</p>
+                    <p class="text-muted" style="text-align: center;"><small><a href="https://github.com/saarthak2002/website" target="_blank" style="text-decoration: none; color: aliceblue;">Website Source Code</a></small></p>
+                </div>
             </div>
         </footer>
+
+        <script src="./styles/typewriter.js"></script>
 
         <!-- bootstrap JS cdn -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
