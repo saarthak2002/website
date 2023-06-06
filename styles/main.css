@@ -122,4 +122,16 @@ p {
     .rButton {
         padding-left: 0;
     }
+
+    .exp-title {
+        padding-top: 20% !important;
+    }
+
+    .project-title {
+        padding-top: 20% !important;
+    }
+
+    .contact-title {
+        padding-top: 30% !important;
+    }
 }
