@@ -44,9 +44,14 @@ html, body {
     transition: 0.3s;
     width: 40%;
     margin: 1rem;
-    
+
     color: white;
     border-radius: 0.5rem;
+}
+
+.card-body {
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
 }
 
 .card:hover {
