@@ -78,8 +78,9 @@ p {
 }
 
 .contact-text {
-    max-width: 700px;
+    max-width: 800px;
     padding-bottom: 3%;
+    font-size: 1.5rem;
 }
 
 .social-icons {
@@ -89,10 +90,6 @@ p {
 .social-icons a {
     padding-right: 2%;
     color: var(--base-highlight-color);
-}
-
-.contact-text {
-    font-size: 1.2rem;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
@@ -153,5 +150,11 @@ p {
 
     .contact-title {
         padding-top: 30% !important;
+        font-size: 4.5rem !important;
+    }
+
+    .contact-text {
+        max-width: 700px;
+        font-size: 1.2rem;
     }
 }
