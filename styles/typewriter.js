@@ -49,7 +49,7 @@ TxtType.prototype.tick = function() {
 window.onload = function() {
 
     var headerElement = document.getElementById('header');
-    if (headerElement) {
+    if (headerElement && window.innerHeight < 1920) {
         headerElement.scrollIntoView();
     }
 

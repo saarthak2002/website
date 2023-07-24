@@ -158,3 +158,109 @@ p {
         font-size: 1.2rem;
     }
 }
+
+@media screen and (min-height: 1080px) {
+    .container {
+        max-width: 1920px !important;
+    }
+    .header {
+        min-height: auto;
+        padding-bottom: 5%;
+        padding-left: 5% !important;
+    }
+    .experience {
+        min-height: auto;
+    }
+    .projects {
+        min-height: auto;
+    }
+    .contact {
+        min-height: auto;
+        padding-bottom: 10%;
+        padding-left: 5% !important;
+    }
+    .card {
+        width: 25rem !important;
+    }
+    .contact-title {
+        font-size: 150px !important;
+        padding-top: 10% !important;
+    }
+    .contact-text {
+        max-width: 80%;
+        font-size: 2.5rem;
+    }
+    .display-2 {
+        font-size: 7.5rem !important;
+    }
+    .display-4 {
+        font-size: 5.5rem !important;
+    }
+    .social-icons {
+        font-size: 3rem;
+    }
+    .navbar {
+        height: 10% !important;
+    }
+    li a {
+        font-size: 3rem !important;
+    }
+    ul:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem !important;
+    }
+    .resume-button-text {
+        font-size: 1.5rem !important;
+    }
+    .full-text {
+        font-size: 5rem !important;
+    }
+    .footer-content:first-child p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-height: 1920px) {
+    .header {
+        background-position: 70%;
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+    .card {
+        width: 35rem !important;
+    }
+    .card-title {
+        font-size: 3rem !important;
+    }
+    .card-text {
+        font-size: 2rem !important;
+    }
+    .resume-button-text {
+        font-size: 2rem !important;
+    }
+    .exp-title {
+        padding-top: 12% !important;
+    }
+    .project-title {
+        padding-top: 12% !important;
+    }
+    .contact {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    .contact-text {
+        max-width: 80%;
+        font-size: 3rem;
+    }
+    .footer-content:first-child p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .navbar-nav li {
+        padding-right: 2%;
+    }
+}
