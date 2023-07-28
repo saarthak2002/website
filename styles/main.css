@@ -49,18 +49,23 @@ html, body {
     border-radius: 0.5rem;
 }
 
-.card-body {
+/* .card-body {
     border-bottom-left-radius: calc(.25rem - 1px);
     border-bottom-right-radius: calc(.25rem - 1px);
-}
+} */
 
 .card:hover {
     transform: scale(1.05);
     /* cursor: pointer; */
 }
 
-.card-body{
+.card{
     background-image: linear-gradient(var(--base-highlight-color), var(--blue-acent-color));
+}
+
+.card-footer {
+    border: 0 !important;
+    background-color: transparent !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -121,6 +126,16 @@ p {
     left: 0;
     z-index: 1;
   /* background-image: url('empty.gif'); */
+}
+
+.card-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.card-links a:hover {
+    color: var(--base-highlight-color);
 }
 
 @media screen and (max-width: 600px) {
@@ -236,6 +251,9 @@ p {
     }
     .card-text {
         font-size: 2rem !important;
+    }
+    .card-links a {
+        font-size: 1.7rem;
     }
     .resume-button-text {
         font-size: 2rem !important;
