@@ -138,6 +138,11 @@ p {
     color: var(--base-highlight-color);
 }
 
+.platforms {
+    font-size: smaller;
+    color: #ffffffb5;
+}
+
 @media screen and (max-width: 600px) {
     .header {
       background-image: none;
@@ -272,6 +277,9 @@ p {
         max-width: 80%;
         font-size: 3rem;
     }
+    .platforms {
+        font-size: 1.5rem !important;
+    }
     .footer-content:first-child p {
         font-size: 2.5rem;
     }
@@ -282,3 +290,24 @@ p {
         padding-right: 2%;
     }
 }
+
+/* @media screen and (min-width: 992px) {
+    .card {
+        width: 22rem !important;
+    }
+    .tech-icons {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .navbar-nav li {
+        padding-right: 2%;
+    }
+    .card {
+        width: 35rem !important;
+    }
+    .tech-icons {
+        width: 70%;
+    }
+} */
