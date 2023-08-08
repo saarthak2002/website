@@ -179,6 +179,16 @@ p {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .exp-title {
+        padding-top: 25% !important;
+    }
+
+    .project-title {
+        padding-top: 25% !important;
+    }
+}
+
 @media screen and (min-height: 1080px) {
     .container {
         max-width: 1920px !important;
