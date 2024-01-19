@@ -4,6 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
+        <meta name="author" content="Saarthak Gupta">
+        <meta name="description" content="Saarthak Gupta's personal portfolio website.">
+        <meta name="keywords" content="Software, Engineer, Data Science, Design, Coding">
+
+        <meta property="og:title" content="Saarthak Gupta's Portfolio" />
+        <meta property="og:description" content="I am a software engineer passionate about solving complex problems." />
+        <meta property="og:image" content="icon.png" />
+        <meta property="og:url" content="https://www.saarthakgupta.com/"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Saarthak Gupta's Portfolio" />
+
         <title>Saarthak Gupta</title>
         <link rel="icon" type="image/png" href="icon.png">
 
@@ -41,7 +52,7 @@
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#contact" style="font-weight: bolder;">Contact <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item" style="padding-left: 0.5rem;" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <li id="resumeButton" class="nav-item" style="padding-left: 0.5rem;" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <button class="btn btn-primary" onclick="window.open('./resources/resume.pdf')"><span class="resume-button-text">Resume</span></button>
                     </li>
                 </ul>
@@ -93,7 +104,7 @@
                         <div class="card border-0" style="width: 18rem;">
                             <img class="card-img-top" src="./resources/publicis-sapient-logo.jpeg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Database Management Intern</h5>
+                                <h5 class="card-title">Software Engineer Intern</h5>
                                 <h6 class="card-title">at Publicis Sapient</h6>
                                 <p class="card-text">Developed backend for internal information management system and improved pipelines that drive business intelligence solutions using SSIS and PowerBI.</p>
                                 <div class="tech-icons">
@@ -111,7 +122,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Lead Teaching Assistant</h5>
                                 <h6 class="card-title">at UVA</h6>
-                                <p class="card-text">Guided 900+ students, led office hours, labs, and review sessions, and graded homework and exams as a TA for classes focusing on Operating Systems and Computer Architecture concepts.</p>
+                                <p class="card-text">Guided 200+ students, led office hours, labs, and review sessions, and graded homework and exams as a TA for classes focusing on Operating Systems and Computer Architecture concepts.</p>
                                 <div class="tech-icons">
                                     <img src="./resources/x86.png" style="width: 18%;"/>
                                     <img src="./resources/C_Logo.png" style="width: 15%;"/>
@@ -133,26 +144,6 @@
                 <div class='container justify-content-center'>
                     <h1 class="project-title display-4" style="text-align: center; padding-top: 10%; color:white; padding-bottom: 3%; font-weight: bolder;">Projects</h1>
                     <div class="row justify-content-center">
-
-                        <!-- Caldera Video Game Project -->
-                        <div class="card border-0" style="width: 18rem;">
-                            <img class="card-img-top" src="./resources/Caldera-cover-2.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Caldera Roguelike Dungeons</h5>
-                                <p class="card-subtitle platforms">Video Game</p>
-                                <p class="card-text">A 2D, top-down, turn-based, strategy dungeon crawler with procedurally generated enemies, loot, characters, and levels using BSP Trees for infinite replayability.</p>
-                                <div class="card-links">
-                                    <span class="badge badge-pill badge-dark"><a href="https://github.com/saarthak2002/caldera-roguelike" target="_blank">Source Code</a></span>
-                                    <span class="badge badge-pill badge-dark"><a href="https://caldera-roguelike-ig0pkenup-saarthak2002.vercel.app/" target="_blank">Play Game (Desktop- Chrome)</a></span> 
-                                </div>  
-                            </div>
-                            <div class="card-footer">
-                                <div class="tech-icons">
-                                    <img src="./resources/phaser3.png" style="width: 25%; margin-right: 3%;"/>
-                                    <img src="./resources/JavaScript-logo.png" style="width: 17%;"/>
-                                </div>
-                            </div>
-                        </div>
 
 
                         <!-- Task.it Project -->
@@ -206,6 +197,75 @@
                             </div>
                         </div>
 
+                        <!-- FlickPicks Project -->
+                        <div class="card border-0" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/FlickPicks-cover-alt.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">FlickPicks Movie Curator</h5>
+                                <p class="card-subtitle platforms">Web App</p>
+                                <p class="card-text">A social cataloging service for cinephiles with millions of movies, enabling users to curate and share collections of films and interact with blogs. Voted best project among 30+ projects.</p>
+                                <div class="card-links">
+                                    <span class="badge badge-pill badge-dark"><a href="https://github.com/saarthak2002/FlickPicks" target="_blank">Source code</a></span>
+                                    <span class="badge badge-pill badge-dark"><a href="https://cs4640.cs.virginia.edu/uzn2up/FlickPicks/" target="_blank">View website</a></span>
+                                    <span class="badge badge-pill badge-dark"><a href="https://youtu.be/oQeH4HGutew" target="_blank">View demo</a></span>
+                                </div>  
+                            </div>
+                            <div class="card-footer">
+                                <div class="tech-icons">
+                                    <img src="./resources/new-php-logo.png" style="width: 19%"/>
+                                    <img src="./resources/JavaScript-logo.png" style="width: 14%;"/>
+                                    <img src="./resources/jquery.png" style="width: 17%;"/>
+                                    <img src="./resources/pgres.png" style="width: 19%;"/>
+                                    <img src="./resources/apache.png" style="width: 24%;"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Haiku Cam Project -->
+                        <div class="card border-0" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/haiku_cam_cover_alt.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Haiku Cam</h5>
+                                <p class="card-subtitle platforms">Raspberry Pi, AWS Cloud</p>
+                                <p class="card-text">An AI-powered, Raspberry Pi-based IoT camera that writes poetry about the images it captures with a cloud-native AWS backend (S3, Lambda, SQS) for image processing.</p>
+                                <div class="card-links">
+                                    <span class="badge badge-pill badge-dark"><a href="https://github.com/saarthak2002/haiku_cam" target="_blank">Source code</a></span>
+                                    <span class="badge badge-pill badge-dark"><a href="https://youtu.be/7163OlYQmVE" target="_blank">View demo</a></span>
+                                </div>  
+                            </div>
+                            <div class="card-footer">
+                                <div class="tech-icons">
+                                    <img src="./resources/aws.png" style="width: 20%"/>
+                                    <img src="./resources/rpi.png" style="width: 12%;"/>
+                                    <img src="./resources/python.png" style="width: 14%;"/>
+                                    <img src="./resources/C_Logo.png" style="width: 15%;"/>
+                                    <img src="./resources/sqlite.png" style="width: 23%;"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ML4VA Car Crash Fatality Prediction -->
+                        <div class="card border-0" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/cover-ml4va.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Car Crash Fatality Prediction</h5>
+                                <p class="card-subtitle platforms">Machine Learning</p>
+                                <p class="card-text">Created pipelines to preprocess 1M+ crash records, predicted fatalities (~85% accuracy), and forecast time series with Neural Networks, using SMOTE-ENN to handle unbalanced data.</p>
+                                <div class="card-links">
+                                    <span class="badge badge-pill badge-dark"><a href="https://github.com/saarthak2002/ML4VA" target="_blank">Source code</a></span>
+                                    <span class="badge badge-pill badge-dark"><a href="https://github.com/saarthak2002/ML4VA/blob/main/final_paper.pdf" target="_blank">Final paper</a></span>
+                                </div>  
+                            </div>
+                            <div class="card-footer">
+                                <div class="tech-icons">
+                                    <img src="./resources/tensorflow.png" style="width: 15%"/>
+                                    <img src="./resources/sklearn.png" style="width: 27%;"/>
+                                    <img src="./resources/pandas_white.svg" style="width: 25%;"/>
+                                    <img src="./resources/npy.png" style="width: 20%;"/>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- Tutor Me Project -->
                         <div class="card border-0" style="width: 18rem;">
                             <img class="card-img-top" src="./resources/tutorme-cover.png" alt="Card image cap">
@@ -226,6 +286,26 @@
                                     <img src="./resources/pgres.png" style="width: 20%;"/>
                                     <img src="./resources/bs.png" style="width: 21%;"/>
                                     <img src="./resources/heroku.png" style="width: 12%;"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Caldera Video Game Project -->
+                        <div class="card border-0" style="width: 18rem;">
+                            <img class="card-img-top" src="./resources/Caldera-cover-2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Caldera Roguelike Dungeons</h5>
+                                <p class="card-subtitle platforms">Video Game</p>
+                                <p class="card-text">A 2D, top-down, turn-based, strategy dungeon crawler with procedurally generated enemies, loot, characters, and levels using BSP Trees for infinite replayability.</p>
+                                <div class="card-links">
+                                    <span class="badge badge-pill badge-dark"><a href="https://github.com/saarthak2002/caldera-roguelike" target="_blank">Source code</a></span>
+                                    <span class="badge badge-pill badge-dark"><a href="https://caldera-roguelike-ig0pkenup-saarthak2002.vercel.app/" target="_blank">Play Game (Desktop- Chrome)</a></span> 
+                                </div>  
+                            </div>
+                            <div class="card-footer">
+                                <div class="tech-icons">
+                                    <img src="./resources/phaser3.png" style="width: 25%; margin-right: 3%;"/>
+                                    <img src="./resources/JavaScript-logo.png" style="width: 17%;"/>
                                 </div>
                             </div>
                         </div>
@@ -292,10 +372,11 @@
             </div>
         </div>
 
+        <!-- Footer -->
         <footer class="footer">
             <div class="footer-content d-flex justify-content-center">
-                <div>
-                    <p style="margin: 0;">Ⓒ 2023 Saarthak Gupta | Made with ♡</p>
+                <div id="footer-text-content-container">
+                    <p style="margin: 0;">Ⓒ 2024 Saarthak Gupta | Made with ♡</p>
                     <p class="text-muted" style="text-align: center;"><small><a href="https://github.com/saarthak2002/website" target="_blank" style="text-decoration: none; color: aliceblue;">Website Source Code</a></small></p>
                 </div>
             </div>
